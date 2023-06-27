@@ -1,4 +1,4 @@
-export default function multiples(sumTo) {
+export function multiples(sumTo) {
   let sum = 0;
   for (let index = 0; index < sumTo; index++) {
     if (index % 3 === 0) {
@@ -9,4 +9,8 @@ export default function multiples(sumTo) {
     }
   }
   return sum;
+}
+
+export function fibonacci() {
+
 }
