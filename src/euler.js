@@ -1,3 +1,12 @@
-export default function multiples() {
-  return 23;
+export default function multiples(sumTo) {
+  let sum = 0;
+  for (let index = 0; index < sumTo; index++) {
+    if (index % 3 === 0) {
+      sum += index;
+    }
+    else if (index % 5 === 0) {
+      sum += index;
+    }
+  }
+  return sum;
 }
