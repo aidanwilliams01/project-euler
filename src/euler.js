@@ -11,6 +11,7 @@ export function multiples(sumTo) {
   return sum;
 }
 
-export function fibonacci() {
-
+export function fibonacci(sumTo) {
+  let sum = 0;
+  return sum;
 }
